@@ -6,6 +6,9 @@
     "tech_stacks_section": "Tech Stacks",
     "lets_collaborate": "Let's Collaborate",
     "ktor_admin_description": "KtorAdmin is a dynamic admin panel for Ktor applications, supporting ORM structures without predefined schemas and simplifying data management with advanced features.",
+    "clipshare_description" : "Clipboard manager with history and cross-device sharing using P2P connections",
+    "mafiauto_description" : "Mafia game assistant & engine",
+    "school_app_description" : "School management app & platform",
     "lets_talk": "Let's Talk",
     "years_of_experience": "Years of Experience"
 }

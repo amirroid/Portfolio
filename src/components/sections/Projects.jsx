@@ -6,34 +6,36 @@ import { useContext } from "react"
 export default function ProjectsSection() {
     const { t } = useContext(TranslationContext);
     const ktorAdminDescription = t('ktor_admin_description');
+    const clipShareDescription = t('clipshare_description');
+    const mafiuatoDescription = t('mafiauto_description');
+    const schoolAppDescription = t('school_app_description');
     const projects = [
         {
             id: 1,
             title: "KtorAdmin",
-            image: "images/bg.jpg",
-            link: "https://github.com/Amirroid/KtorAdmin",
+            image: "images/ktoradmin.jpg",
+            link: "https://github.com/amirroid/KtorAdmin",
             description: ktorAdminDescription
         },
         {
             id: 2,
-            title: "KtorAdmin",
-            image: "images/bg.jpg",
-            link: "https://github.com/Amirroid/KtorAdmin",
-            description: ktorAdminDescription
+            title: "ClipShare",
+            image: "images/clipshare.jpg",
+            link: "https://github.com/amirroid/ClipShare",
+            description: clipShareDescription
         },
         {
             id: 3,
-            title: "KtorAdmin",
-            image: "images/bg.jpg",
-            link: "https://github.com/Amirroid/KtorAdmin",
-            description: ktorAdminDescription
+            title: "Mafiauto",
+            image: "images/mafiauto.jpg",
+            link: "https://github.com/amirroid/mafiauto",
+            description: mafiuatoDescription
         },
         {
             id: 4,
-            title: "KtorAdmin",
-            image: "images/bg.jpg",
-            link: "https://github.com/Amirroid/KtorAdmin",
-            description: ktorAdminDescription
+            title: "School App",
+            image: "images/school.jpg",
+            description: schoolAppDescription
         },
     ]
     return (
