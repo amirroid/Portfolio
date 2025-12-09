@@ -22,7 +22,7 @@ export default function ProjectItem({ project }) {
                         alt={project.title}
                         className="w-full h-full aspect-[8/5] object-cover" />
                     <div
-                        className={`absolute bottom-0 left-0 w-full h-16 bg-primary items-center px-4 flex flex-row
+                        className={`lg:absolute bottom-0 left-0 w-full h-16 bg-primary items-center px-4 flex flex-row
                         opacity-100 translate-y-0 gap-4
                         transition-all duration-500 ${hovered ? "lg:opacity-100 lg:translate-y-0" : "lg:opacity-0 lg:translate-y-4"}
                     `}
